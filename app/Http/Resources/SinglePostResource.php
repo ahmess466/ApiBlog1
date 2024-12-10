@@ -31,7 +31,7 @@ class SinglePostResource extends JsonResource
 
         'Comments Count' => Comment::where('post_id',$this->id)->count() ,
 
-        'Comments' => Comment::where('post_id',$this->id)->get() , //Comment
+        'Comments' => Comment::where('post_id',$this->id)->get() , //Commentt
 
         ] ;
 
